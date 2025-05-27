@@ -1,0 +1,64 @@
+
+.nav {
+   display: inline-block;
+
+}
+
+.text1 {
+   width: 32px;
+   margin-left: 137px;
+   font-weight: 700;
+}
+
+.text2 {
+    width:80px;
+    margin-left: 35px;
+    font-weight: 700;
+}
+
+.text3 {
+    width: 44px;
+    margin-left: 35px;
+    font-weight: 700;
+
+}
+
+.text4 {
+    margin-left: 35px;
+    width: 50px;
+    font-weight: 700;
+}
+
+.image1 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+body {
+    background-color: 214, 214, 214;
+}
+
+
+.upper-image1, .upper-text1, .upper-image2, .upper-image3, .upper-text2, .upper-text3 {
+    position: absolute;
+
+}
+
+.videgt1 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.videgt2 {
+    position: relative;
+    display: inline-block;
+}
+
+.videgt3 {
+    position: relative;
+    display: inline-block;
+   
+}
+
