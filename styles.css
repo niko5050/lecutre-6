@@ -1,3 +1,7 @@
+body {
+    background-color: #f0f0f0
+    ;
+}
 
 .nav {
    display: inline-block;
@@ -8,25 +12,28 @@
    width: 32px;
    margin-left: 137px;
    font-weight: 700;
+   font-size: 11px;
 }
 
 .text2 {
     width:80px;
     margin-left: 35px;
     font-weight: 700;
+    font-size: 11px;
 }
 
 .text3 {
     width: 44px;
     margin-left: 35px;
     font-weight: 700;
-
+    font-size: 11px;
 }
 
 .text4 {
     margin-left: 35px;
     width: 50px;
     font-weight: 700;
+    font-size: 11px;
 }
 
 .image1 {
@@ -34,31 +41,70 @@
     margin-left: 40px;
 }
 
-
-body {
-    background-color: 214, 214, 214;
+.h1 {
+    width: 120px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 137px;
+    margin-top: 76px;
 }
 
 
-.upper-image1, .upper-text1, .upper-image2, .upper-image3, .upper-text2, .upper-text3 {
+
+
+.upper p {
     position: absolute;
-
+    color: white;
+    font-weight: 700;
+    size: 20px;
+    width: 184px;
+    top: 32px;
+    left: 41px;
 }
 
-.videgt1 {
-    position: relative;
+.upper img {
+    width: 362px;
+    height: 186px;
+}
+
+.info img, .info span {
     display: inline-block;
 }
 
-
-.videgt2 {
-    position: relative;
-    display: inline-block;
+.info {
+   background-color: white;
+    width: 362px;
+    height: 171px;
+    color: #8A8787;
 }
 
-.videgt3 {
-    position: relative;
+.info p, .info span {
+    font-size: 10px;
+}
+
+.container1 {
+    margin-left: 138px;
+    margin-top: 27px;
     display: inline-block;
-   
+    position: relative;
+}
+
+.container2 {
+    margin-left: 40px;
+    margin-top: 27px;
+    display: inline-block;
+    left: 40px;
+    vertical-align: super;
+    position: relative;
+}
+
+.container3 {
+    margin-left: 40pxpx;
+    margin-top: 27px;
+    display: inline-block;
+    margin-right: 136px;
+    vertical-align: super;
+    position: relative;
 }
 
