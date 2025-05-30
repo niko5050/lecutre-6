@@ -1,6 +1,22 @@
+main {
+    margin-left: 138px;
+    margin-right: 136px;
+}
+
+
 body {
     background-color: #f0f0f0
     ;
+}
+
+footer {
+    width: auto;
+    height: 201px;
+    background-color: #243043;
+}
+
+.footer1 {
+    margin-top: 36px;
 }
 
 .nav {
@@ -10,7 +26,7 @@ body {
 
 .text1 {
    width: 32px;
-   margin-left: 137px;
+   margin-left: 275px;
    font-weight: 700;
    font-size: 11px;
 }
@@ -57,7 +73,7 @@ body {
     position: absolute;
     color: white;
     font-weight: 700;
-    size: 20px;
+    font-size: 20px;
     width: 184px;
     top: 32px;
     left: 41px;
@@ -66,10 +82,6 @@ body {
 .upper img {
     width: 362px;
     height: 186px;
-}
-
-.info img, .info span {
-    display: inline-block;
 }
 
 .info {
@@ -84,7 +96,7 @@ body {
 }
 
 .container1 {
-    margin-left: 138px;
+    margin-left: 140px;
     margin-top: 27px;
     display: inline-block;
     position: relative;
@@ -100,11 +112,83 @@ body {
 }
 
 .container3 {
-    margin-left: 40pxpx;
+    margin-left: 126px;
     margin-top: 27px;
     display: inline-block;
     margin-right: 136px;
     vertical-align: super;
     position: relative;
 }
+
+.heading2 {
+    width: 210px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 137px;
+    margin-top: 57px;
+  
+}
+
+.photoes1 {
+    position: relative;
+}
+
+.photoes1 img, .photoes1 p {
+    position: absolute;
+}
+
+.photoes1 p {
+    width: 250px;
+    height: 23px;
+    font-weight: 700;
+    color: white;
+    left: 400px;
+    top: 233px;
+    font-size: 21px;
+}
+
+.photoes1 img {
+    width: 758px;
+    height: 430px;
+    margin-top: 30px;
+    margin-left: 137px;
+}
+
+.photoes2 img {
+    width: 758px;
+    height: 430px;
+    margin-top: 521px;
+    margin-left: 137px;
+}
+
+.main-photoes {
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.left-side-photo1 {
+    margin-top: 120px;
+}
+
+.left-side-photo1, .left-side-photo2,  .left-side-photo3 {
+    margin-left: 45px;
+}
+
+.left-side-photo2 {
+    margin-top: 98px;
+}
+
+.left-side-photo3 {
+    margin-top: 103px;
+}
+
 
